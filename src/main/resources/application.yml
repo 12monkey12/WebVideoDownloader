@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+
+
+
+
+
+
+
+download:
+  video:
+    storeDir: D:\carry\
+bilibili:
+  cookie: 

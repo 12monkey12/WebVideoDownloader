@@ -1,0 +1,52 @@
+buildscript {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+
+    dependencies {
+
+    }
+}
+
+
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '2.7.6'
+    id 'io.spring.dependency-management' version '1.1.0'
+}
+
+
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+//    testImplementation 'junit:junit:4.12'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+
+    implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.apache.commons:commons-lang3:3.0'
+    implementation 'org.apache.commons:commons-collections4:4.0'
+    implementation 'org.apache.httpcomponents:httpclient'
+    implementation 'com.fasterxml.jackson.core:jackson-databind'
+
+}
+
+
+
+test {
+    useJUnitPlatform()
+}
+
+
+
+project.group 'org.example'
+project.version '1.0-SNAPSHOT'
+project.sourceCompatibility=1.8
+project.targetCompatibility=1.8

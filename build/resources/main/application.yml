@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+
+
+
+
+
+
+
+download:
+  video:
+    storeDir: D:\carry\
+bilibili:
+  cookie: buvid3=73A07178-4023-E84F-DA6E-80C001A731C181686infoc; _uuid=FC1945A4-10102C-1C1C-EED8-4C8868C453A278553infoc; DedeUserID=60086572; DedeUserID__ckMd5=4d62e4736606c76e; b_ut=5; i-wanna-go-back=2; LIVE_BUVID=AUTO6916422448496099; nostalgia_conf=-1; CURRENT_BLACKGAP=0; blackside_state=0; hit-dyn-v2=1; b_nut=100; fingerprint3=e16b187e2d418c4022a3eed04697f0cb; buvid_fp_plain=undefined; buvid4=AE997B29-2C33-E716-BCD4-66A9AF53F9D350961-022012508-l1%2BOsuGKNV2%2BJiikzhOyjA%3D%3D; fingerprint=bdba598b288d266104c00cc0583892fb; rpdid=|(um~uYJl|uu0J'uYY)~~YklR; buvid_fp=bdba598b288d266104c00cc0583892fb; hit-new-style-dyn=0; bsource=search_google; CURRENT_QUALITY=120; b_lsid=76E3A39A_184DC0E66C1; SESSDATA=518a44e7%2C1685692582%2C34a63%2Ac2; bili_jct=c6ba684461eca6fd6411818679350dfe; sid=7i44kho9; bp_video_offset_60086572=735739004765339600; CURRENT_FNVAL=16; PVID=1; innersign=0
