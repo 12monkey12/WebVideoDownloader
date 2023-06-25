@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane prefHeight="300.0" prefWidth="600.0"
+          xmlns="http://javafx.com/javafx/10.0.2-internal"
+          xmlns:fx="http://javafx.com/fxml/1"
+          fx:controller="com.jee.jfx.views.WindowController">
+   <children>
+      <Label text="状态" GridPane.columnIndex="2" />
+      <Label id="logNameLabel" fx:id="logNameLabel" text="未登录" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+      <Label text="URL" GridPane.rowIndex="2" />
+      <TextField id="urlInput" fx:id="urlInput" prefHeight="23.0" prefWidth="397.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Button id="loadBut" fx:id="loadBut" mnemonicParsing="false" onAction="#handleLoadButtonAction" text="加载" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <Button id="downloadBut" fx:id="downloadBut" mnemonicParsing="false" text="下载" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+      <Label text="名称" GridPane.rowIndex="3" />
+      <Label id="viewNameLabel" fx:id="viewNameLabel" prefHeight="15.0" prefWidth="142.0" text="View Name" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Label text="视频来源" GridPane.rowIndex="1" />
+      <ChoiceBox id="sourceCBox" fx:id="sourceCBox" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Label text="清晰度" GridPane.rowIndex="4" />
+      <ChoiceBox id="articulationCBox" fx:id="articulationCBox" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+   </rowConstraints>
+</GridPane>

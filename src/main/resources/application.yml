@@ -11,5 +11,3 @@ server:
 download:
   video:
     storeDir: D:\carry\
-bilibili:
-  cookie: 

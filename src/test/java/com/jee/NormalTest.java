@@ -20,4 +20,9 @@ public class NormalTest {
         String decode = URLDecoder.decode(url, code);
         System.out.println(decode);
     }
+
+    @Test
+    public void windowTest(){
+        JfxApplication.main(new String[0]);
+    }
 }

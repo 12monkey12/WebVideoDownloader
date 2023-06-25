@@ -6,3 +6,6 @@
 1.在yml文件中粘贴登录cookie
 2.启动程序
 3.在控制台粘贴想要下载的视频地址
+
+# youtube-dl
+https://github.com/ytdl-org/youtube-dl/

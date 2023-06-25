@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane hgap="5.0" prefHeight="300.0" prefWidth="600.0" vgap="5.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jee.jfx.views.WindowController">
+   <children>
+      <Label alignment="CENTER" prefHeight="30.0" prefWidth="70.0" text="状态" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+      <Label id="logNameLabel" fx:id="logNameLabel" alignment="CENTER" prefHeight="30.0" prefWidth="70.0" text="未登录" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="80.0" text="视频来源" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+      <ChoiceBox id="sourceCBox" fx:id="sourceCBox" prefHeight="30.0" prefWidth="250.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+      <Label alignment="CENTER" prefHeight="30.0" prefWidth="70.0" text="URL" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+      <TextArea id="urlInput" fx:id="urlInput" prefHeight="30.0" prefWidth="200.0" wrapText="true" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="2" />
+      <Button id="loadBut" fx:id="loadBut" mnemonicParsing="false" onAction="#handleLoadButtonAction" prefHeight="30.0" prefWidth="70.0" text="加载" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+
+      <Label alignment="CENTER" prefHeight="30.0" prefWidth="70.0" text="名称" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+      <Label id="viewNameLabel" fx:id="viewNameLabel" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="15.0" prefWidth="500.0" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.rowIndex="3" />
+
+      <Label alignment="CENTER" prefHeight="30.0" prefWidth="70.0" text="清晰度" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+      <ChoiceBox id="articulationCBox" fx:id="articulationCBox" prefHeight="30.0" prefWidth="250.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+
+      <Button id="downloadBut" fx:id="downloadBut" alignment="CENTER" contentDisplay="CENTER" disable="true" mnemonicParsing="false" onAction="#handleDownloadButtonAction" prefHeight="30.0" prefWidth="70.0" text="下载" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="5">
+         <GridPane.margin>
+            <Insets left="200.0" />
+         </GridPane.margin></Button>
+
+   </children>
+   <columnConstraints>
+      <ColumnConstraints percentWidth="15.0" />
+      <ColumnConstraints percentWidth="50.0" />
+      <ColumnConstraints percentWidth="30.0" />
+      <ColumnConstraints percentWidth="15.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints percentHeight="10" />
+      <RowConstraints percentHeight="20" />
+      <RowConstraints percentHeight="20" />
+      <RowConstraints percentHeight="20" />
+      <RowConstraints percentHeight="20" />
+      <RowConstraints percentHeight="20" />
+   </rowConstraints>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</GridPane>
